@@ -93,20 +93,19 @@ section.site-top .flex{
 
 .site-top .img-site-top img{
     width: 300px;
-    box-shadow: 0px 0px 80px rgb(126, 46, 247);
+    box-shadow: 0px 0px 40px rgb(126, 46, 247);
     border-top-left-radius: 120px;
     border-end-end-radius: 120px;
     border-top-right-radius: 40px;
     border-end-start-radius: 40px;
-}
-
-section a{
     display: inline-block;
     transition: .2s;
 }
 
-section a:hover{
+.site-top .img-site-top img:hover{
+    box-shadow: 0px 0px 80px rgb(126, 46, 247);
     transform: scale(1.02);
+    transition: .2s;
 }
 
 .site-top h1{
