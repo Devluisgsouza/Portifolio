@@ -1,5 +1,6 @@
 
-/* ESTILO GERAL */
+/* UNIVERSAL STYLE */
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +19,28 @@ body{
     margin: 0 auto;
 }
 
-/* ESTILO DO CABEÇALHO */
+.flex{
+    display: flex;;
+}
+
+.btn-top button{
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: rgb(126, 46, 247);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-top button:hover{
+    box-shadow: 0px 0px 20px rgb(126, 46, 247);
+    transition: 0.5s all;
+}
+
+/* HEADER STYLE */
 
 header{
     padding: 40px 5%;
@@ -31,7 +53,7 @@ header > .interface{
 }
 
 header .logo img{
-    width: 150px;
+    width: 120px;
 }
 
 header a{
@@ -43,7 +65,7 @@ header a{
 
 header a:hover{
     color: rgb(126, 46, 247);
-    transition: 0.2s all;
+    transition: 0.3s all;
     transform: scale(1.05);
 }
 
@@ -56,23 +78,66 @@ header nav ul li{
     padding: 0 40px;
 }
 
-header .btn-contact button{
-    padding: 10px 40px;
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-    background-color: transparent;
-    border: 1px solid;
-    border-color: rgb(126, 46, 247);
-    border-radius: 10px;
-    cursor: pointer;
+/* MAIN STYLE */
+
+section.site-top{
+    padding: 40px 4%;
+    margin: 70px 0;
 }
 
-header .btn-contact button:hover{
-    box-shadow: 0px 0px 20px rgb(126, 46, 247);
-    transition: 0.5s all;
+section.site-top .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
 }
 
+.site-top .img-site-top img{
+    width: 300px;
+    box-shadow: 0px 0px 80px rgb(126, 46, 247);
+    border-top-left-radius: 120px;
+    border-end-end-radius: 120px;
+    border-top-right-radius: 40px;
+    border-end-start-radius: 40px;
+}
 
+section a{
+    display: inline-block;
+    transition: .2s;
+}
 
-/* ESTILO DO CONTEÚDO PRINCIPAL */
+section a:hover{
+    transform: scale(1.02);
+}
+
+.site-top h1{
+    color: #fff;
+    font-size: 20px;
+}
+
+.site-top h2{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.site-top h3{
+    color: #fff;
+    font-size: 60px;
+}
+
+.site-top h4{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.site-top .txt-site-top h2 span{
+    color: rgb(126, 46, 247);
+}
+
+.site-top .txt-site-top p{
+    margin: 50px 0;
+    font-size: 20px;
+    color: rgb(126, 46, 247);
+    line-height: 30px;
+}
