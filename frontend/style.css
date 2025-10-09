@@ -53,7 +53,9 @@ h2.title span{
     color: rgb(126, 46, 247);
 }
 
+
 /* -------------- HEADER STYLE -------------- */
+
 
 header{
     position: fixed;
@@ -64,6 +66,8 @@ header{
     width: 100%;
     height: 130px;
     background-image: radial-gradient(circle, rgb(12, 2, 26) 0%, rgb(2, 1, 7) 70%);
+    box-shadow: 0px 0px 10px rgb(126, 46, 247, 40%);
+    
 }
 
 header > .interface{
@@ -98,7 +102,9 @@ header nav ul li{
     padding: 0 40px;
 }
 
+
 /* -------------- HOME STYLE -------------- */
+
 
 section.site-top{
     padding: 40px 4%;
@@ -157,6 +163,7 @@ section.site-top .flex{
     color: rgb(126, 46, 247);
     line-height: 30px;
 }
+
 
 /* -------------- PROFILE STYLE -------------- */
 
@@ -219,8 +226,8 @@ section.site-profile .flex{
 }
 
 
-
 /* -------------- PROJECTS STYLE -------------- */ 
+
 
 section.site-projects{
     padding: 40px 4%;
@@ -238,3 +245,32 @@ section.site-projects .flex{
 }
 
 
+/* -------------- CONTACTS STYLE -------------- */
+
+section.site-contacts{
+    padding: 40px 4%;
+    justify-content: center;
+}
+
+section.site-contacts .interface{
+    margin: 220px auto;
+    flex-direction: row;
+}
+
+section.site-contacts .flex{
+    margin: 60px 0;
+    gap: 50px;
+}
+
+
+/* -------------- FOOTER STYLE -------------- */
+
+footer{
+    padding: 20px 4%;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px rgb(126, 46, 247, 40%);
+}
+footer > .interface{
+    text-align: center;
+    justify-content: center;
+}
