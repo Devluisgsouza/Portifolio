@@ -229,20 +229,56 @@ section.site-profile .flex{
 
 
 section.site-projects{
-    padding: 40px 4%;
-    justify-content: center;
+    padding: 80px 4%;
 }
 
 section.site-projects .interface{
-    margin: 220px auto;
+    margin: 100px auto;
     flex-direction: row;
 }
 
 section.site-projects .flex{
-    margin: 60px 0;
-    gap: 50px;
+    margin-top: 100px;
+    justify-content: space-between;
 }
 
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgb(126, 46, 247);
+    cursor: pointer;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
 
 /* -------------- CONTACTS STYLE -------------- */
 
