@@ -1,5 +1,13 @@
 
 
+@media screen and (max-width: 1345px){
+    .img-port{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+}
+
 @media screen and (max-width: 1255px){
 
 
