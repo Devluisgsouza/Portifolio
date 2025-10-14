@@ -3,23 +3,23 @@
 </h1>
 
 
-## 📕 Sobre
+## 📕 About
 
-**PORTIFOLIO** em modo de site, que apresenta todos os meus conhecimento e experiências, dentro da área de programação, um currículo  em forma de site.
+**PORTFOLIO** in website mode, which presents all my knowledge and experience in the field of programming, a resume in the form of a website.
 
-## 📌 Linguagens Utilizadas ##
+## 📌 Programming Languages ##
 
 - JavaScript
 - CSS
 - HTML
 
-## 🖥️ Apresentação ##
+## 🖥️ Preview ##
 
 <div align="center" style="margin-top: 50px; margin-bottom: 50px;">
   <img src="images/portifoliohome.png" alt="site" width="1000" height="600">
 </div>
 
-## 🌐 Link do site ##
+## 🌐 Link ##
 
 - [PORTIFOLIO](https://devluisportifolio.netlify.app/)
 
