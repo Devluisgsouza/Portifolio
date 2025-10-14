@@ -16,7 +16,7 @@ Representação de todo meu conhecimento e experiências, dentro de um **PORTIFO
 ## 🖥️ Apresentação ##
 
 <div align="center">
-  <img src="images/portifoliohome.png" alt="site" width="400">
+  <img src="images/portifoliohome.png" alt="site" width="1000" height="600">
 </div>
 
 ## 🌐 Link do site ##
