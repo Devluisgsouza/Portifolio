@@ -128,10 +128,22 @@ section.site-projects .flex{
 
 .social-icons{
     display: flex;
-    padding: 20px 4%;
+    padding: 20px;
     font-size: 30px;
     margin-top: 60px;
     gap: 20px;
 }
+
+}
+
+@media screen and (max-width: 694px){
+
+    footer{
+        width: 109%;
+    }
+
+    .interface{
+        max-width: 450px;
+    }
 
 }
