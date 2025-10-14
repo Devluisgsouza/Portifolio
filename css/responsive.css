@@ -1,76 +1,137 @@
 
-@media screen and (max-width: 1190px){
-    header .menu-desktop, .btn-top{
-        display: none;
-    }
+
+@media screen and (max-width: 1255px){
+
+
+header .menu-desktop, .btn-top{
+    display: none;
 }
 
-@media screen and (max-width: 1190px){
+header{
+    height: 80px;
+    align-items: center;
+}
 
-.interface{
-    max-width: 500px;
+header .logo img{
+    width: 50px;
 }
 
 header .btn-menu-mob{
     display:block;
 }
 
+h2.title{
+    font-size: 30px;
+    text-align: center;
+}
+
 section.site-top{
-    margin-top: 100px;
+    margin-top: 120px;
+}
+
+section.site-top .interface{
+    padding: 0 10%;
+}
+
+section.site-profile .interface{
+    padding: 0 10%;
+}
+
+section.site-projects .interface{
+    padding: 0 10%;
+}
+
+section.site-contacts .interface{
+    padding: 0 10%;
 }
 
 section.site-top .flex{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-header{
-    height: 100px;
-}
-
-header .logo img{
-    width: 80px;
+    gap: 10px
 }
 
 .site-top .img-site-top img{
-    width: 300px;
-    box-shadow: 0px 0px 40px rgb(126, 46, 247);
-    border-top-left-radius: 120px;
-    border-end-end-radius: 120px;
-    border-top-right-radius: 40px;
-    border-end-start-radius: 40px;
-    display: inline-block;
-    transition: .2s;
-    margin-top: -300px;
+    width: 200px;
+    border-top-left-radius: 100px;
+    border-end-end-radius: 100px;
+    margin-top: 90px;
 }
 
-section.site-profile{
-    padding: 0 4%;
-    justify-content: center;
+.site-top h2{
+    font-size: 30px;
 }
 
+.site-top h3{
+    font-size: 30px;
+}
+
+.site-top .txt-site-top p{
+    margin: 0px 0;
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+section.site-profile .interface{
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+.site-profile .flex p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: start;
+}
+
+section.site-profile .flex{
+    margin-top: 20px;
+    gap: 0
+}
 
 .site-profile .skills .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 30px;
+    margin-top: 50px;
+    font-size: 30px;
 }
 
-.efect-projects{
+section.site-projects .interface{
+    margin-top: 10px;
+}
+
+section.site-projects .flex{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 40px;
+    align-items: center;
+    gap: 40px
 }
 
 .img-port{
     width: 260px;
     height: 360px;
+    border-radius: 20px;
+}
+
+.overlay{
+    border-radius: 20px;
 }
 
 .social-box{
-    font-size: 12px;
+    line-height: 60px;
+    font-size: 9px;
+}
+
+.social-icons{
+    display: flex;
+    padding: 20px 4%;
+    font-size: 30px;
+    margin-top: 60px;
+    gap: 20px;
 }
 
 }
