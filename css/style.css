@@ -83,6 +83,11 @@ header > .interface{
 
 header .logo img{
     width: 120px;
+    transition: 0.3s all;
+}
+
+header .logo img:hover{
+    transform: scale(1.05);
 }
 
 header .menu-desktop a{

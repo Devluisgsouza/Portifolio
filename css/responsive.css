@@ -136,7 +136,7 @@ section.site-projects .flex{
 
 .social-icons{
     display: flex;
-    padding: 20px;
+    padding: 20px 0%;
     font-size: 30px;
     margin-top: 60px;
     gap: 20px;
@@ -150,8 +150,6 @@ section.site-projects .flex{
         width: 110%;
     }
 
-    .interface{
-        max-width: 450px;
-    }
+
 
 }
