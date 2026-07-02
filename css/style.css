@@ -329,6 +329,29 @@ header {
     overflow: hidden;
 }
 
+/* Grain-gradient shader backdrop (js/hero-background.js) */
+.hero-shader {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+}
+.hero-shader canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* Scrim: keeps hero text readable and fades the shader into the page bg */
+.hero-shader::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom,
+        rgba(8, 12, 20, 0.72) 0%,
+        rgba(8, 12, 20, 0.62) 45%,
+        var(--bg) 100%);
+}
+
 /* Dot grid background in hero */
 .site-top::before {
     content: '';
@@ -338,7 +361,7 @@ header {
     background-size: 28px 28px;
     pointer-events: none;
     opacity: 0.18;
-    z-index: 0;
+    z-index: 1;
     /* Fade out at bottom */
     -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, transparent 100%);
     mask-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, transparent 100%);
